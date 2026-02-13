@@ -3,4 +3,5 @@
     <string name="contador">0</string>
     <string name="btn_aumentar">Aumentar</string>
     <string name="btn_diminuir">Diminuir</string>
+    <string name="btn_reiniciar">Reiniciar</string>
 </resources>

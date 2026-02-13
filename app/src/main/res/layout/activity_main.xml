@@ -7,8 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
         android:id="@+id/activity_main_contador"
+        android:autofillHints="contador"
+        android:inputType="number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/contador"
@@ -16,8 +18,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6"
-        android:textSize="40sp" />
+        app:layout_constraintVertical_bias="0.55"
+        android:textSize="40sp"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/activity_main_contador_btn_aumentar"
@@ -41,6 +44,20 @@
         android:padding="16dp"
         android:layout_marginTop="4dp"
         android:text="@string/btn_diminuir"
+        android:textSize="16sp"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/activity_main_contador_btn_reiniciar"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/activity_main_contador_btn_diminuir"
+        app:layout_constraintStart_toStartOf="@id/main"
+        app:layout_constraintEnd_toEndOf="@id/main"
+        android:padding="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/btn_reiniciar"
         android:textSize="16sp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
