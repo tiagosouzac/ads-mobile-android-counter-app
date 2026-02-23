@@ -20,8 +20,7 @@ A clean and functional Android application developed as a technical challenge. T
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/repository-name.git
-
+git clone https://github.com/tiagosouzac/ads-mobile-android-counter-app.git
 ```
 
 2. **Open in Android Studio:**
